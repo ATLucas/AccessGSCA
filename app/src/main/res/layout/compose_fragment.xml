@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="24sp"
+        android:textColor="#ff64bbff"
+        android:text="No recipient selected."
+        android:id="@+id/compose_to" />
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@+id/compose_to"
+        android:textSize="24sp"
+        android:textColor="#ffd9ebff"
+        android:hint="Subject"
+        android:id="@+id/compose_subject" />
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/compose_subject"
+        android:textSize="24sp"
+        android:textColor="#ffa1d4ff"
+        android:hint="Message"
+        android:id="@+id/compose_message"
+        android:layout_above="@+id/send_button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textColor="#ff64bbff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/send_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/ButtonAGTheme"/>
+
+</RelativeLayout>

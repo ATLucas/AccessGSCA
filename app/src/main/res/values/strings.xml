@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AccessGSCA</string>
+    <string name="action_settings">Settings</string>
+    <string name="saved_token">saved_token</string>
+    <string name="saved_refresh_token">saved_refresh_token</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="login_text">This is the login screen.</string>
+    <string name="login_message">Click below to authorize this app to access your Sycamore account. You can revoke this authorization at any time by selecting the logout option from the options menu.</string>
+    <string name="login_button">Begin Authorization</string>
+    <string name="login_title">Welcome!</string>
+
+</resources>
